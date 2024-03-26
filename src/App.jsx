@@ -10,7 +10,7 @@ function App() {
     <div className="bg-graybg">
       <Navbar />
       <Header />
-      <div className="bg-white md:mx-[15%] md:-mt-32">
+      <div className="bg-white md:mx-[15%] vmd:-mt-32">
         <Services />
         <CallToAction />
         <div className="md:w-[35%] w-[85%] mx-auto my-16">
