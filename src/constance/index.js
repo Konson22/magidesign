@@ -14,11 +14,6 @@ const SOCIALMEDIA = [
         icon:<FaInstagram />,
         url:'https://www.instagram.com/dista.agency'
     },
-    {
-        icon:<FaWhatsapp />,
-        url:'wa.me/249996138485'
-    },
-    
 ]
 
 const SERVICES = [

@@ -32,9 +32,19 @@ img {
   height: 100%;
 }
 
+
 .header {
-  background-image: linear-gradient(to right, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../public/images/logo.jpg');
-  background-size: contain;
-  background-position: right;
-  background-repeat: no-repeat;
+  clip-path: polygon(100% 0, 100% 90%, 50% 100%, 0 90%, 0 0);
+}
+
+.clip {
+  clip-path: polygon(15% 0%, 85% 0%, 100% 50%, 85% 100%, 15% 100%, 0% 50%);
+  clip-path: polygon(50% 0%, 90% 20%, 100% 60%, 75% 100%, 25% 100%, 0% 60%, 10% 20%);
+  clip-path: polygon(30% 0%, 70% 0%, 100% 30%, 100% 70%, 70% 100%, 30% 100%, 0% 70%, 0% 30%);
+}
+
+@media screen and (max-width:780px) {
+  .header {
+    clip-path: polygon(100% 0, 100% 95%, 50% 100%, 0 95%, 0 0);
+  }
 }
