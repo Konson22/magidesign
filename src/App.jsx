@@ -17,6 +17,8 @@ function App() {
         "https://wa.me/+249996138485?text=" + encodedMessage;
     }
   };
+  // new member megdad-rizing.formaloo.co/kgkfd /xgn397
+  // fill thi megdad-rizing.formaloo.co/xgn397
 
   return (
     <div className="md:overflow-x-hidden md:bg-gray-200">
